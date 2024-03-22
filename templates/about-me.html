@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block head %}About Me{% endblock %}
+
+{% block body %}
+    <p>Hello, My name is Nadia Hina! I like to find crafty solutions for as 
+        many problems I can.
+        My first encounter with programming was in the 6th grade. My 6th grade 
+        teacher, Mr.Contreas, held an afterschool robotics club that I joined.
+        During club time he would create obstacle courses for us, outlining the path 
+        that we were supposed to follow with duct tape. I remember writing the code and 
+        running it on the robot and each time it took the course it would take a slightly different
+        route, even though I hadn't changed the code. This would encourage me make tweaks in the code each run
+        with no success. That is until I realized that where we put the robot as the starting position was of
+        utmost importance! Once the starting position was conistent, things approved.
+
+        Again in middle school, I helped put together a part of a robot. In high school I joined FIRST Robotics 
+        and was fortunate enough to attend competitions in Davis, CA and San Jose, CA in 2022. I saw and participated
+        in the building and coding of a robot. 
+    </p>
+    <h2>Projects</h2>
+        <a href="wonderwalk.html">WonderWalk</a>
+        
+            <p>A full stack app that allows users to generate random walks and add reflections for their selected walks</p>
+        <a href="cherrycloud.html">Cherry Cloud</a>
+            <p>Collarabarated with 2 other software engineers to create a fun twist on flappy bird.</p>
+
+    <h3>Contact Me</h3>
+    <form>
+        <p>
+            Name<input type="text" name="name">
+          </p>
+          <p>
+            Email <input type="text" name="email">
+          </p>
+      
+          <p>
+            State your reason<input type="text" name="reason">
+          </p>
+      
+          <p>
+            <input type="submit">
+          </p>
+    </form>
+.{% endblock %}
