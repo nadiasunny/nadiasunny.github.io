@@ -1,42 +1,54 @@
-{% extends 'base.html' %}
-
-{% block head %}About Me{% endblock %}
-
-{% block body %}
-    <h1>Welcome!</h1>
-    <p>HMy name is Nadia Hina! I like to find crafty solutions for as 
-        many problems I can.
-        My first encounter with programming was in the 6th grade. My 6th grade 
-        teacher, Mr.Contreas, held an afterschool robotics club that I joined.
-        During club time he would create obstacle courses for us, outlining the path 
-        that we were supposed to follow with duct tape. I remember writing the code and 
-        running it on the robot and each time it took the course it would take a slightly different
-        route, even though I hadn't changed the code. This would encourage me make tweaks in the code each run
-        with no success. That is until I realized that where we put the robot as the starting position was of
-        utmost importance! Once the starting position was consistent, things approved.<p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadia's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome!</h1>
+  <h2>My name is Nadia Hina! I like to find crafty solutions for as 
+  many problems I can.</h2>
+  <a href=""></a>
+  <p>
+      My first encounter with programming was in the 6th grade where I learned that computers do exactly what 
+      you tell them to. My 6th grade teacher, Mr.Contreas, held an afterschool robotics club that I joined.
+      During club time he would create obstacle courses for us, outlining the path 
+      that we were supposed to follow with duct tape. I remember writing the code and 
+      running it on the robot and each time it took the course it would take a slightly different
+      route, even though I hadn't changed the code. This would encourage me make tweaks in the code each run
+      with no success. It was a vicious cycle until I realized that where we put the robot as the starting position was of
+      utmost importance! Once the starting position was consistent, things improved.<p>
+    <p>
+      Again in middle school, I helped put together a part of a robot. In high school I joined FIRST Robotics 
+      and was fortunate enough to attend competitions in Davis, CA and San Jose, CA in 2022, with my team taking 
+      our robot to the world champs in Texas. I saw and participated in the building and coding of a robot. 
+  </p>
+  <a href="https://www.linkedin.com/in/nadia-hina-a1161a272/">My LinkedIn</a>
+  <a href="https://github.com/nadiasunny">My Github</a>
+  <h2>Projects</h2>
+      <a href="wonderwalk.html">WonderWalk</a>
+       
+  <h3>Contact Me</h3>
+  
+  <form>
       <p>
-        Again in middle school, I helped put together a part of a robot. In high school I joined FIRST Robotics 
-        and was fortunate enough to attend competitions in Davis, CA and San Jose, CA in 2022. I saw and participated
-        in the building and coding of a robot. 
-    </p>
-    <h2>Projects</h2>
-        <a href="wonderwalk.html">WonderWalk</a>
-         
-    <h3>Contact Me</h3>
-    <form>
+          Name<input type="text" name="name">
+        </p>
         <p>
-            Name<input type="text" name="name">
-          </p>
-          <p>
-            Email <input type="text" name="email">
-          </p>
-      
-          <p>
-            State your reason<input type="text" name="reason">
-          </p>
-      
-          <p>
-            <input type="submit">
-          </p>
-    </form>
-{% endblock %}
+          Email <input type="text" name="email">
+        </p>
+    
+        <p>
+          What would like to discuss? <input type="text" name="reason">
+        </p>
+    
+        <p>
+          <input type="submit">
+        </p>
+  </form>
+    
+</body>
+</html>
+
