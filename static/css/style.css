@@ -6,3 +6,11 @@ body{
     height: 80px;
 
 }
+#welcomediv{
+    border: 3px solid black;
+
+}
+img{
+    max-width: 100%;
+    display: block;
+}
