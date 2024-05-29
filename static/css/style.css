@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: rgb(239, 235, 227);
+    background-color: rgb(238, 233, 202);
 }
 #reason{
     height: 80px;
@@ -8,9 +8,14 @@ body{
 }
 #welcomediv{
     border: 3px solid black;
+    max-width: 100%;
+    max-height: 100%;
 
 }
 img{
     max-width: 100%;
     display: block;
+}
+#myface{
+    align-items: left;
 }
