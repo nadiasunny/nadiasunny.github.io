@@ -7,7 +7,7 @@ body{
 
 }
 #welcomediv{
-    border: 3px solid black;
+    text-align: right;
     max-width: 100%;
     max-height: 100%;
 
