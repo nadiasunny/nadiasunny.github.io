@@ -1,7 +1,15 @@
+body{
+    height: 2000px;
+    background: linear-gradient(white,rgb(220, 209, 193), rgb(214, 199, 173), rgb(193, 150, 77))
+}
 #text{
     align-items: left;
+    float: left;
+    width: 50%;
 
 }
 #images{
     align-self: right;
+    float: right;
+    width: 50%;
 }
