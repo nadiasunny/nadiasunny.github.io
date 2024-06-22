@@ -4,12 +4,16 @@ body{
 }
 #text{
     align-items: left;
+    top: 25%;
     float: left;
     width: 50%;
+    height:50%;
+
 
 }
 #images{
     align-self: right;
     float: right;
     width: 50%;
+    height: 50%;
 }
