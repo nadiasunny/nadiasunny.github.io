@@ -12,12 +12,15 @@ body{
 
 }
 #images{
-    align-self: right;
     float: right;
+    height: 200px;
+    width:200px;
+    
+
+}
+#a{
     display: block;
     margin-left:0%;
     margin-right:50%;
     max-width: 100%;
-    height: auto;
-
 }
