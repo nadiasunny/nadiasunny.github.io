@@ -11,14 +11,10 @@ body{
 
 
 }
-#images{
-    float: right;
-    height: 200px;
-    width:200px;
-    
-
-}
-#a{
+img{
+    float:center;
+    width: 200px;
+    height:200px;
     display: block;
     margin-left:0%;
     margin-right:50%;
