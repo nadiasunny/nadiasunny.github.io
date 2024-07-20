@@ -20,3 +20,14 @@ img{
 #myface{
     align-items: left;
 }
+.project-slideshow{
+    display: flex;
+    border: 5px solid black;
+   
+
+}
+.carousel-inner{
+    width:640px;
+    height:360px;
+    padding-right: 20px;
+}
