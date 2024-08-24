@@ -18,7 +18,10 @@ img{
     display: block;
 }
 #myface{
-    align-items: left;
+    align-items: center; 
+    width: 200 px;
+    height: 200 px;
+
 }
 .project-slideshow{
     display: flex;
