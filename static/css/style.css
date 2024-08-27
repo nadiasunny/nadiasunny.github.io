@@ -13,10 +13,10 @@ body{
     align-items: right;
 
 }
-img{
+/* img{
     max-width: 100%;
     display: block;
-}
+} */
 #myface{
     align-items: center; 
     width: 200 px;
