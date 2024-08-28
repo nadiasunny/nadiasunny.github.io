@@ -21,7 +21,8 @@ body{
     align-items: center; 
     width: 200 px;
     height: 200 px;
-
+    width:50%;
+    height: 50%;
 }
 .project-slideshow{
     display: flex;
