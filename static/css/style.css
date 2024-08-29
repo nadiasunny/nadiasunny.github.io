@@ -17,13 +17,6 @@ body{
     max-width: 100%;
     display: block;
 } */
-#myface{
-    align-items: center; 
-    width: 200 px;
-    height: 200 px;
-    width:50%;
-    height: 50%;
-}
 .project-slideshow{
     display: flex;
     border: 5px solid black;
@@ -41,4 +34,12 @@ h5{
 }
 .carousel{
     padding: 50px;
+}
+.logo{
+    width: 100px;
+    height:100px;
+}
+#face{
+    width: 200 px;
+    height: 200 px;
 }
