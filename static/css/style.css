@@ -18,19 +18,25 @@ body{
     display: block;
 } */
 .project-slideshow{
-    display: flex;
-    border: 5px solid black;
-   
-
+    /* width:60%;
+    height:60%; */
+    border: 5px solid black; 
+    float:left; 
+    display:inline; 
+    width: 49%;
 }
-.carousel-inner{
-    width:640px;
-    height:360px;
+#example{
+    /* width: 40%;
+    height:40%;
+    align-self:left; */
+    float:left; 
+    display:inline; 
+    width: 49%;
 }
 
 h5{
     color:black;
-    background-color: white;
+    
 }
 .carousel{
     padding: 50px;
@@ -38,6 +44,15 @@ h5{
 .logo{
     width: 100px;
     height:100px;
+    
+}
+#logos{
+    position:fixed;
+    bottom: 0;
+
+    /* And if you want the div to be full-width: */
+    left: 0;
+    right: 0;
 }
 #face{
     width: 200 px;
