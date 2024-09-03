@@ -47,12 +47,20 @@ h5{
     
 }
 #logos{
+    
+    /* left: 0;
+    right: 0; 
     position:fixed;
-    bottom: 0;
+    bottom:0; */
 
-    /* And if you want the div to be full-width: */
-    left: 0;
-    right: 0;
+    float: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+
+    
 }
 #face{
     width: 200 px;
