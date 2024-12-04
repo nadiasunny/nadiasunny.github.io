@@ -11,6 +11,7 @@ body{
     max-width: 100%;
     max-height: 100%;
     align-items: right;
+    border: 3px white solid;
 
 }
 /* img{
@@ -23,15 +24,16 @@ body{
     border: 5px solid black; 
     float:left; 
     display:inline; 
-    width: 49%;
+    width: 60%;
+}
+.carousel.img{
+    height: 500px;
 }
 #example{
-    /* width: 40%;
-    height:40%;
-    align-self:left; */
+    
     float:left; 
     display:inline; 
-    width: 49%;
+    width: 30%;
 }
 
 h5{
