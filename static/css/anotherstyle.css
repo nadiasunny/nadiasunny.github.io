@@ -1,0 +1,15 @@
+#face{
+    border-radius: 7%;
+    width:50%; 
+    /* height:200px; */
+    float: left;
+    padding: 5%;
+}
+#heading{
+    float: right;
+    width:40%;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
