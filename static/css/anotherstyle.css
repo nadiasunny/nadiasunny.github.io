@@ -13,3 +13,23 @@
     display: flex;
     align-items: center;
 }
+img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+.text {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 100px);    
+}
+.column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.row::after {
+    content:"";
+    clear: both;
+    display: table;
+}
